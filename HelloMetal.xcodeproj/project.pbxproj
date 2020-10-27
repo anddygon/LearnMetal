@@ -13,6 +13,7 @@
 		AD19C14F2548070E00011176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD19C14D2548070E00011176 /* Main.storyboard */; };
 		AD19C1512548071000011176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD19C1502548071000011176 /* Assets.xcassets */; };
 		AD19C1542548071000011176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD19C1522548071000011176 /* LaunchScreen.storyboard */; };
+		AD19C15D2548093500011176 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19C15C2548093500011176 /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD19C1502548071000011176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD19C1532548071000011176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD19C1552548071000011176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD19C15C2548093500011176 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AD19C1472548070E00011176 /* AppDelegate.swift */,
 				AD19C1492548070E00011176 /* SceneDelegate.swift */,
 				AD19C14B2548070E00011176 /* ViewController.swift */,
+				AD19C15C2548093500011176 /* Renderer.swift */,
 				AD19C14D2548070E00011176 /* Main.storyboard */,
 				AD19C1502548071000011176 /* Assets.xcassets */,
 				AD19C1522548071000011176 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD19C15D2548093500011176 /* Renderer.swift in Sources */,
 				AD19C14C2548070E00011176 /* ViewController.swift in Sources */,
 				AD19C1482548070E00011176 /* AppDelegate.swift in Sources */,
 				AD19C14A2548070E00011176 /* SceneDelegate.swift in Sources */,
